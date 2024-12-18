@@ -1,0 +1,104 @@
+/* General Styles */
+header {
+    background-color: #8e918f;
+    padding: 10px 20px;
+    color: #fff;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+header .nav-links a:hover {
+    color: #fc6c85;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: auto;
+    display: block;
+    padding: 0;
+   
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+  
+}
+
+/* Form Styles */
+h1, h2 {
+    text-align: center;
+    color: #fc6c85;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #fc6c85;
+    outline: none;
+}
+
+
+button {
+    background: #fc6c85;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #fc6c85;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    form{width: 90%;}
+}
