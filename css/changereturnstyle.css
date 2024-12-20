@@ -85,7 +85,7 @@ body {
   padding: 0;
   display: block;
   width: auto;
-  float: right;
+  
 }
 .container {
   background: #fff;
@@ -96,6 +96,16 @@ body {
   width: 100%;
   display: flex;
 flex-direction: column;
+float: right;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 h1 {
   text-align: center;
