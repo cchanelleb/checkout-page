@@ -1,13 +1,10 @@
-/* General Reset */
-
-/* Header Navigation */
 header {
   background-color: #8e918f;
   padding: 10px 20px;
   color: #fff;
 }
 header nav {
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
 }
@@ -24,15 +21,9 @@ header .nav-links a {
 header .nav-links a:hover {
   color: #fc6c85;
 }
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Navigation Bar Styling */
 .navbar {
+
   justify-content: space-between;
   align-items: center;
   background-color: #333;
