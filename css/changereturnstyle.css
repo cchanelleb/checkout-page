@@ -107,6 +107,10 @@ float: center;
   padding-bottom: 50px;
   padding-left: 50px;
 }
+p{ 
+  float: right;
+  margin-right: 50px;
+}
 h1 {
   text-align: center;
   margin-bottom: 20px;
