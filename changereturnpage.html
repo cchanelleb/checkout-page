@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Return</title>
+    <link rel="stylesheet" href="css/changereturnstyle.css"
+</head>
+<body>
+    <section class="container">
+        <h1> Change Return Calculator</h1>
+        <form id="changeForm">
+            <label for="cost">Total Cost ($):</label>
+            <input type="number" id="cost" step="0.01" required>
+
+            <label for="moneyGiven"> Money Given</label>
+            <input type="number" id="moneyGiven" step="0.01" required>
+
+            <button type="button" id="calulateBtn"> Calculate Change</button>
+
+        </form>
+    </section>
+    <section id="result" class="result">
+<!---Results will display here-->
+    </section>
+    <script src="JavaScript/changereturnscript.js"></script>
+</body>
+</html>
