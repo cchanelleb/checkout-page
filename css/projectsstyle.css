@@ -71,7 +71,7 @@ header .nav-links a:hover {
   
   .dropdown-content li a {
     color: #333;
-    padding: 0px;
+    padding: 10px;
     text-decoration: none;
   }
   
