@@ -51,7 +51,6 @@ header .nav-links a:hover {
   background-color: #555;
 }
 
-/* Dropdown Menu Styling */
 .dropdown-content {
   display: none; /* Hidden by default */
   position: absolute;
@@ -63,7 +62,7 @@ header .nav-links a:hover {
 
 .dropdown-content li a {
   color: #333;
-  padding: 0px;
+  padding: 10px;
   text-decoration: none;
 }
 
